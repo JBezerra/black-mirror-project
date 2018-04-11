@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 import csv
 import numpy
 
-
 class Dado(object):
     def __init__(self,hora, idade, sexo, cidade, tipo=None, arma=None):
         super(Dado, self).__init__()
